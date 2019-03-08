@@ -128,7 +128,7 @@ class FastLookup
 
     public function send($datObject, $tlds = array())
     {
-        $result = $this->checkDomainBunch($this->getDomain(), $tlds);
+        $result = $this->checkDomainBunch($datObject->data->domain, $tlds);
 
         // Results
         $this->resultFullRaw = $result;
