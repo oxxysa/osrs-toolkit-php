@@ -10,7 +10,7 @@ class FastDomainLookup extends FastLookup
     private $_domain = '';
     private $_tldSelect = array();
     private $_tldAll = array();
-    private $_formatHolder = '';
+    protected $_formatHolder = '';
     public $resultFullRaw;
     public $resultRaw;
     public $resultFullFormatted;
