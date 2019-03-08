@@ -2,7 +2,7 @@
 
 namespace opensrs;
 
-defined('OPENSRSURI') or require_once dirname(__FILE__).'/openSRS_config.php';
+//defined('OPENSRSURI') or require_once dirname(__FILE__).'/openSRS_config.php';
 
 class Mail
 {
